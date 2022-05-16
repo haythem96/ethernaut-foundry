@@ -40,9 +40,10 @@ contract FallbackTest is Test {
         emit log_named_uint("Fallback contract balance", address(ethernautFallback).balance);
 
         bool levelSuccessfullyPassed = ethernaut.submitLevelInstance(payable(ethernautFallback));
-        assert(levelSuccessfullyPassed);
 
         vm.stopPrank();
+
+        assert(levelSuccessfullyPassed);
     }
 
 }
