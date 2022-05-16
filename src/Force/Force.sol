@@ -2,7 +2,8 @@
 
 pragma solidity ^0.8.10;
 
-contract Force {/*
+contract Force {
+    /*
 
                    MEOW ?
          /\_/\   /
@@ -10,4 +11,5 @@ contract Force {/*
   /~____  =ø= /
  (______)__m_m)
 
-*/}
+*/
+}

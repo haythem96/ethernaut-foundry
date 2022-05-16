@@ -16,9 +16,11 @@ fuzz_runs = 1_000
 # Configure remappings
 remappings = [
   "@std=lib/forge-std/src/",
-  "@solmate=lib/solmate/src/"
+  "@solmate=lib/solmate/src/",
+  "@ds-test/=lib/forge-std/lib/ds-test/src/"
 ]
-
+test = "test/"
+src = "src/"
 # Extreme Fuzzing CI Profile :P
 [ci]
 fuzz_runs = 100_000
