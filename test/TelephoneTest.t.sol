@@ -15,7 +15,7 @@ contract TelephoneTest is Test {
 
     function setUp() public {
         vm.label(alice, "Alice");
-        vm.label(address(this), "FalloutTest");
+        vm.label(address(this), "ethernautTelephone");
         vm.startPrank(alice);
 
         // Setup instance of the Ethernaut contract
